@@ -60,3 +60,6 @@ const ProductDetails = async ({ params }: { params: { id: string } }) => {
 };
 
 export default ProductDetails;
+
+
+
