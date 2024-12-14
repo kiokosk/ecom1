@@ -56,7 +56,7 @@ const Nav = () => {
       <div className="flex items-center justify-between w-[95%] md:w-4/5 mx-auto h-full">
         {/* Logo */}
         <Link href="/">
-          <Image src="/images/logo.png" alt="logo" width={180} height={140} className="object-none w-56 h-20" priority />
+          <Image src="/images/logo.png" alt="logo" width={180} height={140} className="object-none w-56 h-20" priority unoptimized />
         </Link>
         <div className="flex items-center space-x-6">
           {/* Search Functionality */}
