@@ -79,8 +79,8 @@ const Products = () => {
     key={category}
     className={`p-6 rounded-lg cursor-pointer text-center transition-all duration-300 ${
       selectedCategory === category
-        ? 'bg-gray-200 text-blue-600 shadow-md' // Blue text after selection
-        : 'bg-white text-black border border-gray-300 hover:bg-gray-100 hover:text-blue-600' // Black text before selection
+        ? 'bg-gray-200 text-blue-600 shadow-md' 
+        : 'bg-white text-black border border-gray-300 hover:bg-gray-100 hover:text-blue-600' 
     }`}
     onClick={() => handleCategoryClick(category)}
   >
